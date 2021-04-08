@@ -1,5 +1,10 @@
+
+2.)Son continuos, X esta de primeras, luego Y y finalmente Z.
+  
+3.)Pienso yo que era realizar operaciones entre los arreglos, mostrando sus posiciones en memoria y sus limites, para mi fue mas facil definirlos, para comprobar si realmente esta haciendo un cambio en ellos, además de las operaciones realizadas entre ellos.
+Sin embargo si tambien era necesario ver como se comportaban las posiciones en memoria al momento de cambiar su tamaño hubiera definido un nuevo array con el tamaño deseado pues el array es un elemento estatico en la memoria.
 En general, se creo una nueva funcion que define los valores en memoria y  los muestra, en la fuencion print array se tomo el valor de la posicion en memoria para ser mostrado.
-Por otro se cambiaron algunos indices y se llamo a la funcion memory_pos para mostrar la posicion en memorio.
+Por otro se cambiaron algunos indices y se llamo a la funcion memory_pos para mostrar la posicion en memoria.
 Las operaciones realizadas con arrays y los enteros se hicieron en un for y por ultimo se añadieron comentarios y espacios.
 linea 9:se definieron las variables, no entiendo porque habria de sumar o acceder directamente a los espacios en la memoria, entonces  defini los arrays  con valores iniciales de 0
 linea 22:se añadio el espacio " " por estetica
