@@ -1,0 +1,23 @@
+En general, se creo una nueva funcion que define los valores en memoria y  los muestra, en la fuencion print array se tomo el valor de la posicion en memoria para ser mostrado.
+Por otro se cambiaron algunos indices y se llamo a la funcion memory_pos para mostrar la posicion en memorio.
+Las operaciones realizadas con arrays y los enteros se hicieron en un for y por ultimo se añadieron comentarios y espacios.
+linea 9:se definieron las variables, no entiendo porque habria de sumar o acceder directamente a los espacios en la memoria, entonces  defini los arrays  con valores iniciales de 0
+linea 22:se añadio el espacio " " por estetica
+linea 21:se cambio el indice NZ por NX para que no se acceda a un espacio de memoria diferente al declarado
+linea 23:se removio el + NY, no es claro porque quiere sumarlo al numero maximo ya que eso se sladría del espacio definido para z
+linea 25:se cambio el indice  jj por ii para que sume sin salirse de el espacio que ocupa en memoria
+linea 27:se añadio este espacio
+linea 28:se definieron las posiciones en memoria como un comentarioademás se implemento una funcion que accede a la posicion en memoria del array en cuestion, este proceso se define 4 veces
+(este proceso se repite 4 veces)
+linea 34:se cambio el indice NZ por NX
+linea 36:se removio el + NY, no es claro porque quiere sumarlo al numero maximo
+linea 40:se quito x[jj]=jj, eso se hizo antes, ademas X[NY] no esta en el espacio de x*
+linea 41:se cambio el indice ii por jj, ademas se resta NZ para remplazar print_array(y-NZ,NY)
+linea 43:para remplazar print_array(x - NY,NX) sume el entero a cada posicion del array
+linea 47:para remplazar z + NZ + NY, realice un for que sume NZ + NY a cada indice de z
+linea 57:no veo porque no restar x -NY, sin embargo el indice NY no tiene sentido en este caso, entonces lo modifique para ser NX 
+linea 58:se cambio el entero NZ por NY, se quito el y-NZ  y se añadio un y[jj]=jj-NZ en el for de arriba
+linea 59:se cambio el entero NX por NZ
+linea 62:se quitaron x[jj]=jj y y[jj]=jj 
+linea 63:se cambio el indice jj por kk
+linea 82:Se creo una funcion que muestra el valor de la memoria sobre el array, creando un pointer que accede a la memoria de data[]**/
